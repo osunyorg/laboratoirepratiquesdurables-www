@@ -29,6 +29,20 @@ items:
   children: []
   path: "/pages/recherche-experimentation"
   file: content/fr/pages/recherche-experimentation/_index.html
+- title: Prospective & récits
+  target: "/prospective-recits/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/prospective-recits"
+  file: content/fr/pages/prospective-recits/_index.html
+- title: Economie & Territoires
+  target: "/economie-territoires/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/economie-territoires"
+  file: content/fr/pages/economie-territoires/_index.html
 - title: Organisations
   target: "/organisations/"
   kind: page
@@ -50,11 +64,4 @@ items:
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Prospective & récits
-  target: "/prospective-recits/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/prospective-recits"
-  file: content/fr/pages/prospective-recits/_index.html
 
