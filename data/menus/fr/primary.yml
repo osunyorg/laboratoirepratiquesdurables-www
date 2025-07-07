@@ -1,6 +1,34 @@
 ---
 title: Menu principal
 items:
+- title: Formes & styles
+  target: "/formes-styles/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/formes-styles"
+  file: content/fr/pages/formes-styles/_index.html
+- title: Matières & Couleurs
+  target: "/matieres-couleurs/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/matieres-couleurs"
+  file: content/fr/pages/matieres-couleurs/_index.html
+- title: Savoir-faire & Métiers
+  target: "/savoir-faire-metiers/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/savoir-faire-metiers"
+  file: content/fr/pages/savoir-faire-metiers/_index.html
+- title: Recherche & Expérimentation
+  target: "/recherche-experimentation/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/recherche-experimentation"
+  file: content/fr/pages/recherche-experimentation/_index.html
 - title: Organisations
   target: "/organisations/"
   kind: page
