@@ -2,67 +2,93 @@
 title: Menu principal
 items:
 - title: Création
+  slug: creation
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Formes & styles
+    slug: formes-styles
     target: "/formes-styles/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/formes-styles"
     file: content/fr/pages/formes-styles/_index.html
   - title: Matières & Couleurs
+    slug: matieres-couleurs
     target: "/matieres-couleurs/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/matieres-couleurs"
     file: content/fr/pages/matieres-couleurs/_index.html
+  descendants_targets:
+  - "/formes-styles/"
+  - "/matieres-couleurs/"
 - title: Développement
+  slug: developpement
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Savoir-faire & Métiers
+    slug: savoir-faire-metiers
     target: "/savoir-faire-metiers/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/savoir-faire-metiers"
     file: content/fr/pages/savoir-faire-metiers/_index.html
   - title: Economie & Territoires
+    slug: economie-territoires
     target: "/economie-territoires/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/economie-territoires"
     file: content/fr/pages/economie-territoires/_index.html
+  descendants_targets:
+  - "/economie-territoires/"
+  - "/savoir-faire-metiers/"
 - title: Innovation
+  slug: innovation
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Recherche & Expérimentation
+    slug: recherche-experimentation
     target: "/recherche-experimentation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/recherche-experimentation"
     file: content/fr/pages/recherche-experimentation/_index.html
   - title: Prospective & récits
+    slug: prospective-recits
     target: "/prospective-recits/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/prospective-recits"
     file: content/fr/pages/prospective-recits/_index.html
+  descendants_targets:
+  - "/prospective-recits/"
+  - "/recherche-experimentation/"
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 
